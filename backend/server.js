@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const { Octokit } = require("@octokit/core");
-const octokit = new Octokit({ auth: `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` });
+const octokit = new Octokit();
 
 
 app.get('/search', async (req, res) => {
