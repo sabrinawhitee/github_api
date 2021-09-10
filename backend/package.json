@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@octokit/core": "^3.5.1",
+    "express": "^4.17.1",
+    "https": "^1.0.0"
   }
 }
